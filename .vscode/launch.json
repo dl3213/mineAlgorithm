@@ -1,0 +1,116 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Java8Tester",
+            "request": "launch",
+            "mainClass": "javaCode.Java8Tester",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Joseph",
+            "request": "launch",
+            "mainClass": "javaCode.list.Joseph",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoWayLinkList",
+            "request": "launch",
+            "mainClass": "javaCode.list.TwoWayLinkList",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinkList",
+            "request": "launch",
+            "mainClass": "javaCode.list.LinkList",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SequenceList",
+            "request": "launch",
+            "mainClass": "javaCode.list.SequenceList",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Quick",
+            "request": "launch",
+            "mainClass": "javaCode.sort.Quick",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Merge",
+            "request": "launch",
+            "mainClass": "javaCode.sort.Merge",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortTest",
+            "request": "launch",
+            "mainClass": "javaCode.sort.SortTest",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Shell",
+            "request": "launch",
+            "mainClass": "javaCode.sort.Shell",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Insertion",
+            "request": "launch",
+            "mainClass": "javaCode.sort.Insertion",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Selection",
+            "request": "launch",
+            "mainClass": "javaCode.sort.Selection",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Bubble",
+            "request": "launch",
+            "mainClass": "javaCode.sort.Bubble",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - testSort",
+            "request": "launch",
+            "mainClass": "javaCode.sort.testSort",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWord",
+            "request": "launch",
+            "mainClass": "javaCode.HelloWord",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "javaCode.Test",
+            "projectName": "Algorithm_b8f36ebf"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": ""
+        }
+    ]
+}
