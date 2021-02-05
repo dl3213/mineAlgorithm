@@ -3,6 +3,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReversePolishNotation",
+            "request": "launch",
+            "mainClass": "javaCode.stack.ReversePolishNotation",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BracketsMatch",
+            "request": "launch",
+            "mainClass": "javaCode.stack.BracketsMatch",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Stack",
+            "request": "launch",
+            "mainClass": "javaCode.stack.Stack",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Joseph",
+            "request": "launch",
+            "mainClass": "javaCode.list.Joseph",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoWayLinkList",
+            "request": "launch",
+            "mainClass": "javaCode.list.TwoWayLinkList",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "javaCode.Test",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Java8Tester",
             "request": "launch",
             "mainClass": "javaCode.Java8Tester",
