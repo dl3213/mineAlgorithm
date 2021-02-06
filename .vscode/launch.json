@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HelloWord",
+            "request": "launch",
+            "mainClass": "javaCode.HelloWord",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)",
             "request": "launch",
             "mainClass": ""
