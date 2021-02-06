@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h3>state: no power</h3>
+            <p class="tips"></p>
+        </div>
+    </div>
+    <div>
+        <button id="poweron">Power On</button>
+        <button id="poweroff">Power Off</button>
+        <button id="cooking">Start Cooking</button>
+        <button id="open">Open</button>
+        <button id="close">Close</button>
+    </div>
+    <script>
+        class Context{
+            constructor(elState,elInfo){
+                this.nowState = new PowerOffState(this)
+                this.elState = elState
+                this.elInfo = elInfo
+            }
+            changeState2(state){
+                this.nowState = state
+                this.elState.innerText = state.getName()
+            }
+            info(msg){
+                this.elInfo.innerText = msg
+            }
+            open(){
+                this.nowState.open()
+            }
+            close(){
+                this.nowState.close()
+            }
+            powerOn(){
+                this.nowState.powerOn()
+            }
+            powerOff(){
+                this.nowState.powerOff()
+            }
+            cooking(){
+                this.nowState.cooking()
+            }
+        }
+        class State{
+            constructor(stateName){
+                //this.state = ""
+                this.getName = function(){
+                    return stateName
+                }
+            }
+        }
+        class PowerOnState extends State{
+            constructor(ctx){
+                super("powerOn")
+                this.ctx = ctx
+            }
+            open(){
+                this.ctx.changeState2(new OpenState(this.ctx))
+            }
+            close(){
+                this.ctx.info("is not opening,can not close")
+            }
+            cooking(){
+                this.ctx.changeState2(new CookingState(this.ctx))
+            }
+            powerOn(){
+                this.ctx.info("now power is on")
+            }
+            PowerOff(){
+                this.ctx.changeState2(new PowerOffState(this.ctx))
+            }
+        }
+        class PowerOffState extends State{
+            constructor(ctx){
+                super("powerOff")
+                this.ctx = ctx
+            }
+            open(){
+                this.ctx.info("no power, can not open")
+            }
+            close(){
+                this.ctx.info("no power, can not close")
+            }
+            cooking(){
+                this.ctx.info("no power, can not cooking")
+            }
+            powerOn(){
+                this.ctx.changeState2(new PowerOnState(this.ctx))
+            }
+            PowerOff(){
+                this.ctx.info("now is off")
+            }
+        }
+        class CookingState extends State{
+            constructor(ctx){
+                super("cooking")
+                this.ctx = ctx
+            }
+            open(){
+                this.ctx.info("dangerous!!!")
+            }
+            close(){
+                this.ctx.info("now is closing")
+            }
+            cooking(){
+                this.ctx.info("now is cooking")
+            }
+            powerOn(){
+                this.ctx.info("now power is on")
+            }
+            PowerOff(){
+                this.ctx.changeState2(new PowerOffState(this.ctx))
+            }
+        }
+        class OpenState extends State{
+            constructor(ctx){
+                super("open")
+                this.ctx = ctx
+            }
+            open(){
+                this.ctx.info("now is opening")
+            }
+            close(){
+                this.ctx.changeState2(new CloseState(this.ctx))
+            }
+            cooking(){
+                this.ctx.info("now is opening, can not cooking")
+            }
+            powerOn(){
+                this.ctx.info("now power is on")
+            }
+            PowerOff(){
+                this.ctx.changeState2(new PowerOffState(this.ctx))
+            }
+        }
+        class CloseState extends State{
+            constructor(ctx){
+                super("close")
+                this.ctx = ctx
+            }
+            open(){
+                this.ctx.changeState2(new OpenState(this.ctx))
+            }
+            close(){
+                this.ctx.info("now is closing")
+            }
+            cooking(){
+                this.ctx.changeState2(new CookingState(this.ctx))
+            }
+            powerOn(){
+                this.ctx.info("now power is on")
+            }
+            PowerOff(){
+                this.ctx.changeState2(new PowerOffState(this.ctx))
+            }
+        }
+
+        let poweron = document.querySelector("#poweron");
+        let poweroff = document.querySelector("#poweroff");
+        let cooking = document.querySelector("#cooking");
+        let openBtn = document.querySelector("#open");
+        let closeBtn = document.querySelector("#close");
+
+        let ctx = new Context(
+            document.querySelector("h3"),
+            document.querySelector(".tips"))
+
+        poweron.addEventListener("click",()=>{
+            ctx.powerOn()
+        })
+        poweroff.addEventListener("click",()=>{
+            ctx.powerOff()
+        })
+        cooking.addEventListener("click",()=>{
+            ctx.cooking()
+        })
+        openBtn.addEventListener("click",()=>{
+            ctx.open()
+        })
+        closeBtn.addEventListener("click",()=>{
+            ctx.close()
+        })
+    </script>
+</body>
+</html>

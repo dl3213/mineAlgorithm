@@ -2,7 +2,7 @@ package javaCode.stack;
 
 import java.util.Iterator;
 
-//base on list
+//base on linklist
 
 public class Stack<T> implements Iterable<T> {
 
