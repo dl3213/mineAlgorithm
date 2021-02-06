@@ -3,34 +3,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - OrderSymbolTable",
-            "request": "launch",
-            "mainClass": "javaCode.table.OrderSymbolTable",
-            "projectName": "mineAlgorithm_c225bfcc"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - SymbolTable",
-            "request": "launch",
-            "mainClass": "javaCode.table.SymbolTable",
-            "projectName": "mineAlgorithm_c225bfcc"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Queue",
-            "request": "launch",
-            "mainClass": "javaCode.queue.Queue",
-            "projectName": "mineAlgorithm_c225bfcc"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - ReversePolishNotation",
-            "request": "launch",
-            "mainClass": "javaCode.stack.ReversePolishNotation",
-            "projectName": "mineAlgorithm_c225bfcc"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch)",
             "request": "launch",
             "mainClass": ""
