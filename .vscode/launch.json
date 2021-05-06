@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PaperFolding",
+            "request": "launch",
+            "mainClass": "javaCode.tree.PaperFolding",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinaryTree",
+            "request": "launch",
+            "mainClass": "javaCode.tree.BinaryTree",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReversePolishNotation",
+            "request": "launch",
+            "mainClass": "javaCode.stack.ReversePolishNotation",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "javaCode.Test",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HelloWord",
             "request": "launch",
             "mainClass": "javaCode.HelloWord",
