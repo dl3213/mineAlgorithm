@@ -3,6 +3,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IndexMinPriorityQueue",
+            "request": "launch",
+            "mainClass": "javaCode.heap.IndexMinPriorityQueue",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinPriorityQueue",
+            "request": "launch",
+            "mainClass": "javaCode.heap.MinPriorityQueue",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxPriorityQueue",
+            "request": "launch",
+            "mainClass": "javaCode.heap.MaxPriorityQueue",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxPriorityQueue",
+            "request": "launch",
+            "mainClass": "javaCode.queue.MaxPriorityQueue",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HeapSort",
+            "request": "launch",
+            "mainClass": "javaCode.heap.HeapSort",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Heap",
+            "request": "launch",
+            "mainClass": "javaCode.heap.Heap",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PaperFolding",
             "request": "launch",
             "mainClass": "javaCode.tree.PaperFolding",
