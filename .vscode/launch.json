@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - UnionFindTree3",
+            "request": "launch",
+            "mainClass": "javaCode.tree.UnionFindTree3",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UnionFindTree2",
+            "request": "launch",
+            "mainClass": "javaCode.tree.UnionFindTree2",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - UnionFindTree",
             "request": "launch",
             "mainClass": "javaCode.tree.UnionFindTree",
