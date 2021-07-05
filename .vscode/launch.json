@@ -3,9 +3,30 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - DijkstraSP",
+            "name": "CodeLens (Launch) - HashMapTest",
             "request": "launch",
-            "mainClass": "javaCode.graph.DijkstraSP",
+            "mainClass": "javaCode.hashmap.HashMapTest",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Maptest",
+            "request": "launch",
+            "mainClass": "javaCode.Maptest",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - z",
+            "request": "launch",
+            "mainClass": "javaCode.z",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWord",
+            "request": "launch",
+            "mainClass": "javaCode.HelloWord",
             "projectName": "mineAlgorithm_c225bfcc"
         }
     ]
