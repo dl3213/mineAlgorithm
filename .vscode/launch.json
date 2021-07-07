@@ -3,10 +3,17 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Maptest",
+            "name": "Launch DemoApplication",
             "request": "launch",
-            "mainClass": "javaCode.Maptest",
-            "projectName": "mineAlgorithm_c225bfcc"
+            "mainClass": "com.dl3213.demo.DemoApplication",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Application",
+            "request": "launch",
+            "mainClass": "com.dl3213.Application",
+            "projectName": "demo"
         }
     ]
 }
