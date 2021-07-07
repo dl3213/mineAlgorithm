@@ -9,7 +9,8 @@ import java.util.Set;
 public class Maptest {
     
     public static void main(String[] args) {
-
+        System.out.println(3+2+"1");//51
+        System.out.println("3"+2+1);//321
         // List<String> list = new ArrayList<>();
         // list.add("a");
         // list.add("b");
