@@ -1,4 +1,4 @@
-package javaCode.tree;
+package tree;
 
 public class RedBlackTree<Key extends Comparable<Key>,Value> {
 

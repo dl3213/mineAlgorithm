@@ -1,6 +1,6 @@
-package javaCode.graph;
+package graph;
 
-import javaCode.queue.Queue;
+import queue.Queue;
 
 public class EdgeWeightedGraph {
     

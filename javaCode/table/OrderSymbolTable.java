@@ -1,4 +1,4 @@
-package javaCode.table;
+package table;
 
 public class OrderSymbolTable<Key extends Comparable<Key>,Val> {
     

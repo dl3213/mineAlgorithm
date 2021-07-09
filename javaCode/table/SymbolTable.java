@@ -1,4 +1,4 @@
-package javaCode.table;
+package table;
 
 public class SymbolTable<Key,Val> {
     

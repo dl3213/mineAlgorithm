@@ -1,4 +1,4 @@
-package javaCode.list;
+package list;
 
 public class Joseph<T> {
     

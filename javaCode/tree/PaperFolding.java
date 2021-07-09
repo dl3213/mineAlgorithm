@@ -1,6 +1,6 @@
-package javaCode.tree;
+package tree;
 
-import javaCode.queue.Queue;
+import queue.Queue;
 
 //折纸问题
 public class PaperFolding {

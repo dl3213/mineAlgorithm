@@ -1,6 +1,6 @@
-package javaCode.graph;
+package graph;
 
-import javaCode.stack.Stack;
+import stack.Stack;
 
 public class DepthFirstOrder {
     

@@ -1,4 +1,6 @@
-package javaCode.tree;
+package tree;
+
+
 
 import java.util.Scanner;
 

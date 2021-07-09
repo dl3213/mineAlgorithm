@@ -1,4 +1,4 @@
-package javaCode.queue;
+package queue;
 
 import java.util.Iterator;
 

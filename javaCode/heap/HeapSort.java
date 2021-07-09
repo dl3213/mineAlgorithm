@@ -1,4 +1,4 @@
-package javaCode.heap;
+package heap;
 
 import java.util.Arrays;
 

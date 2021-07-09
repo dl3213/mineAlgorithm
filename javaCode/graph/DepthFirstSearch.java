@@ -1,4 +1,4 @@
-package javaCode.graph;
+package  graph;
 
 
 public class DepthFirstSearch {

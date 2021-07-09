@@ -1,4 +1,4 @@
-package javaCode.sort;
+package sort;
 
 public class testSort {
 

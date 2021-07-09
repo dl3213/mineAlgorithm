@@ -1,12 +1,12 @@
-package javaCode.graph;
+package graph;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 
-import javaCode.heap.MinPriorityQueue;
-import javaCode.queue.Queue;
-import javaCode.tree.UnionFindTree3;
+import  heap.MinPriorityQueue;
+import  queue.Queue;
+import  tree.UnionFindTree3;
 
 public class KruskalMST{
 

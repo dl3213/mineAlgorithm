@@ -1,4 +1,4 @@
-package javaCode.stack;
+package stack;
 
 //括号匹配
 public class BracketsMatch {

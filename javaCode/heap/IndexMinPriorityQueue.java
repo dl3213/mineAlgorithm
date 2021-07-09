@@ -1,4 +1,4 @@
-package javaCode.heap;
+package heap;
 
 public class IndexMinPriorityQueue<T extends Comparable<T>> {
     

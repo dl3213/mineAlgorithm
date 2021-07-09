@@ -1,4 +1,4 @@
-package javaCode.stack;
+package stack;
 
 //逆波兰表达式(中缀表达式)
 public class ReversePolishNotation {

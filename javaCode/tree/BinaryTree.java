@@ -1,6 +1,6 @@
-package javaCode.tree;
+package tree;
 
-import javaCode.queue.Queue;
+import queue.Queue;
 
 //base on linkedlist
 public class BinaryTree<Key extends Comparable<Key>,Value> {

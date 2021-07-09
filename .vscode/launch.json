@@ -3,6 +3,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ChannelTest",
+            "request": "launch",
+            "mainClass": "ioTest.ChannelTest",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "Launch BufferTest",
+            "request": "launch",
+            "mainClass": "ioTest.BufferTest",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ioTest.Main",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "Launch BIOServer",
+            "request": "launch",
+            "mainClass": "ioTest.BIOServer",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "Launch BIOServer",
+            "request": "launch",
+            "mainClass": "io.BIOServer",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWord",
+            "request": "launch",
+            "mainClass": "HelloWord",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "Launch BIOServer",
+            "request": "launch",
+            "mainClass": "BIOServer",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
             "name": "Launch DemoApplication",
             "request": "launch",
             "mainClass": "com.dl3213.demo.DemoApplication",

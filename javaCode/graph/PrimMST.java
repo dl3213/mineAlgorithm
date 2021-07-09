@@ -1,11 +1,11 @@
-package javaCode.graph;
+package graph;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 
-import javaCode.heap.IndexMinPriorityQueue;
-import javaCode.queue.Queue;
+import heap.IndexMinPriorityQueue;
+import queue.Queue;
 
 public class PrimMST {
 

@@ -1,4 +1,4 @@
-package javaCode.sort;
+package sort;
 
 public class Student implements Comparable<Student> {
     private String uname;
