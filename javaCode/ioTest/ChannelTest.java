@@ -2,7 +2,6 @@ package ioTest;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -14,7 +13,7 @@ public class ChannelTest {
         // fun1();
         // fun2();
         // fun3();
-        fun4();
+        // fun4();
     }
 
 

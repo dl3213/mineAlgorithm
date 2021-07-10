@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "ioTest.groupChat.Client",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "ioTest.groupChat.Server",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "Launch NIOClient",
+            "request": "launch",
+            "mainClass": "ioTest.NIOClient",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
+            "name": "Launch NIOServer",
+            "request": "launch",
+            "mainClass": "ioTest.NIOServer",
+            "projectName": "mineAlgorithm_c225bfcc"
+        },
+        {
+            "type": "java",
             "name": "Launch ChannelTest",
             "request": "launch",
             "mainClass": "ioTest.ChannelTest",
